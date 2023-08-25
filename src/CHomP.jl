@@ -1,5 +1,12 @@
 module CHomP
 
-# Write your package code here.
+using Reexport
+@reexport using PyCall
+
+const chomp = PyNULL()
+
+function __init__()
+    copy!(chomp, pyimport("chomp"))
+end
 
 end

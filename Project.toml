@@ -1,7 +1,11 @@
 name = "CHomP"
 uuid = "388fe821-2770-44f1-8af1-e3d616332038"
-authors = ["April Herwig <aprillherwig@gmail.com> and contributors"]
+authors = ["April Herwig <aprillherwig@gmail.com>"]
 version = "1.0.0-DEV"
+
+[deps]
+PyCall = "438e738f-606a-5dbb-bf0a-cddfbfd45ab0"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
 
 [compat]
 julia = "1"
