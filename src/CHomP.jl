@@ -1,12 +1,14 @@
+__precompile__(true)
 module CHomP
 
 using Reexport
 @reexport using PyCall
+export chompjl
 
-const chomp = PyNULL()
+const chompjl = PyNULL()
 
 function __init__()
-    copy!(chomp, pyimport("chomp"))
+    copy!(chompjl, pyimport("pychomp2"))
 end
 
 end

@@ -1,0 +1,54 @@
+Collecting pychomp2
+  Downloading pychomp2-0.6.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (179 kB)
+Collecting graphviz
+  Downloading graphviz-0.20.1-py3-none-any.whl (47 kB)
+Collecting matplotlib
+  Downloading matplotlib-3.7.2-cp38-cp38-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (9.2 MB)
+Collecting contourpy>=1.0.1
+  Downloading contourpy-1.1.0-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (300 kB)
+Collecting cycler>=0.10
+  Downloading cycler-0.11.0-py3-none-any.whl (6.4 kB)
+Collecting fonttools>=4.22.0
+  Downloading fonttools-4.42.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (4.6 MB)
+Collecting importlib-resources>=3.2.0
+  Downloading importlib_resources-6.0.1-py3-none-any.whl (34 kB)
+Collecting kiwisolver>=1.0.1
+  Downloading kiwisolver-1.4.5-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.whl (1.2 MB)
+Collecting numpy
+  Downloading numpy-1.24.4-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.3 MB)
+Collecting packaging>=20.0
+  Downloading packaging-23.1-py3-none-any.whl (48 kB)
+Collecting pillow>=6.2.0
+  Downloading Pillow-10.0.0-cp38-cp38-manylinux_2_28_x86_64.whl (3.4 MB)
+Collecting pyparsing<3.1,>=2.3.1
+  Downloading pyparsing-3.0.9-py3-none-any.whl (98 kB)
+Collecting python-dateutil>=2.7
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting six>=1.5
+  Downloading six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting zipp>=3.1.0
+  Downloading zipp-3.16.2-py3-none-any.whl (7.2 kB)
+Collecting scipy
+  Downloading scipy-1.10.1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.5 MB)
+Installing collected packages: zipp, six, numpy, python-dateutil, pyparsing, pillow, packaging, kiwisolver, importlib-resources, fonttools, cycler, contourpy, scipy, matplotlib, graphviz, pychomp2
+  WARNING: The scripts f2py, f2py3 and f2py3.8 are installed in '/home/april/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+  Attempting uninstall: python-dateutil
+    Found existing installation: python-dateutil 2.8.1
+    Uninstalling python-dateutil-2.8.1:
+      Successfully uninstalled python-dateutil-2.8.1
+  Attempting uninstall: pyparsing
+    Found existing installation: pyparsing 2.4.7
+    Uninstalling pyparsing-2.4.7:
+      Successfully uninstalled pyparsing-2.4.7
+  Attempting uninstall: packaging
+    Found existing installation: packaging 20.8
+    Uninstalling packaging-20.8:
+      Successfully uninstalled packaging-20.8
+  WARNING: The scripts fonttools, pyftmerge, pyftsubset and ttx are installed in '/home/april/.local/bin' which is not on PATH.
+  Consider adding this directory to PATH or, if you prefer to suppress this warning, use --no-warn-script-location.
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+launchpadlib 1.10.13 requires testresources, which is not installed.
+Successfully installed contourpy-1.1.0 cycler-0.11.0 fonttools-4.42.1 graphviz-0.20.1 importlib-resources-6.0.1 kiwisolver-1.4.5 matplotlib-3.7.2 numpy-1.24.4 packaging-23.1 pillow-10.0.0 pychomp2-0.6.4 pyparsing-3.0.9 python-dateutil-2.8.2 scipy-1.10.1 six-1.16.0 zipp-3.16.2
+WARNING: You are using pip version 20.3.3; however, version 23.2.1 is available.
+You should consider upgrading via the '/usr/bin/python3 -m pip install --upgrade pip' command.
