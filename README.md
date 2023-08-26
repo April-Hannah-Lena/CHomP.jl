@@ -12,7 +12,7 @@ If you are a fellow mathematician or computer scientist and want to create a tru
 
 ## Installation and Usage
 
-To install CHomP.jl, call 
+CHomP.jl requires julia 1.7 or later. To install CHomP.jl, call 
 
 ```julia
 ] add https://github.com/April-Hannah-Lena/CHomP.jl.git
