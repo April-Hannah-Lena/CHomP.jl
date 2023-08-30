@@ -1,0 +1,3 @@
+[submodule "deps/CMGDB"]
+	path = deps/CMGDB
+	url = https://github.com/marciogameiro/CMGDB.git
