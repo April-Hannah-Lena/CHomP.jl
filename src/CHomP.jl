@@ -7,12 +7,12 @@ export pychomp, cmgdb, dsgrn
 
 const pychomp = PyNULL()
 const cmgdb = PyNULL()
-const dsgrn = PyNULL()
+#const dsgrn = PyNULL()
 
 function __init__()
     copy!(pychomp, pyimport("pychomp2"))
     copy!(cmgdb, pyimport("CMGDB"))
-    copy!(dsgrn, pyimport("DSGRN"))
+    #copy!(dsgrn, pyimport("DSGRN"))
 end
 
 end
