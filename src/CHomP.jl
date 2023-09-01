@@ -3,7 +3,7 @@ module CHomP
 
 using Reexport
 @reexport using PyCall
-export pychomp, cmgdb, dsgrn
+export pychomp, cmgdb#, dsgrn
 
 const pychomp = PyNULL()
 const cmgdb = PyNULL()
